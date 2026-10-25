@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Lab | Setup & Selectors</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <a class="logo" href="index.html">jQuery Lab</a>
+    <div class="nav-links">
+        <a class="active" href="index.html">Setup</a>
+        <a href="effects.html">Effects</a>
+        <a href="dom.html">DOM</a>
+        <a href="animations.html">Animations</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+</nav>
+
+<main class="container">
+    <header class="hero">
+        <span class="task-label">Assignment #6</span>
+        <h1>Interactive jQuery Laboratory</h1>
+        <p class="subtitle">
+            Explore selectors, effects, DOM manipulation,
+            animations, and an interactive image gallery.
+        </p>
+        <p>Student: Muratbek Ibrai | Group: SE-2529</p>
+    </header>
+
+    <section class="card">
+        <span class="task-label">Task 0</span>
+        <h2>Getting Started with jQuery</h2>
+        <p>
+            jQuery is loaded from a CDN.
+            Open Developer Tools and check the Console.
+        </p>
+        <div class="demo">
+            <p id="ready-status">Waiting for jQuery...</p>
+        </div>
+    </section>
+
+    <section class="card">
+        <span class="task-label">Task 1</span>
+        <h2>Selectors and CSS Manipulation</h2>
+        <p>Demonstrating ID, class, and tag selectors.</p>
+
+        <div class="demo">
+            <h3 id="selector-title">Original heading</h3>
+            <p class="selector-text">Original paragraph one.</p>
+            <p class="selector-text">Original paragraph two.</p>
+            <div id="html-result">Original HTML content</div>
+        </div>
+
+        <button id="id-btn">ID Selector</button>
+        <button id="class-btn">Class Selector</button>
+        <button id="tag-btn">Tag Selector</button>
+        <button id="html-btn">Change HTML</button>
+        <button id="reset-btn" class="secondary">Reset</button>
+    </section>
+</main>
+
+<footer>
+    Assignment #6 | Muratbek Ibrai | SE-2529
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/setup.js"></script>
+</body>
+</html>
