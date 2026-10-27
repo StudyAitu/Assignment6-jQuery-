@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Lab | Animations</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <a class="logo" href="index.html">jQuery Lab</a>
+    <div class="nav-links">
+        <a href="index.html">Setup</a>
+        <a href="effects.html">Effects</a>
+        <a href="dom.html">DOM</a>
+        <a class="active" href="animations.html">Animations</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+</nav>
+
+<main class="container">
+    <h1>jQuery Animations</h1>
+    <p class="subtitle">
+        Basic, sequential, and combined animations
+        using the jQuery .animate() method.
+    </p>
+
+    <section class="card">
+        <span class="task-label">Task 8</span>
+        <h2>Basic Animation</h2>
+        <p>Increase the size and move the square.</p>
+
+        <div class="stage">
+            <div id="basic-box" class="animation-box"></div>
+        </div>
+
+        <button id="basic-start">Start Animation</button>
+        <button id="basic-reset" class="secondary">Reset</button>
+    </section>
+
+    <section class="card">
+        <span class="task-label">Task 9</span>
+        <h2>Sequential Animation</h2>
+        <p>Right → Down → Shrink → Return.</p>
+
+        <div class="stage">
+            <div id="sequence-box" class="animation-box"></div>
+        </div>
+
+        <button id="sequence-start">Run Sequence</button>
+        <button id="sequence-reset" class="secondary">Reset</button>
+    </section>
+
+    <section class="card">
+        <span class="task-label">Task 10</span>
+        <h2>Combined Animation</h2>
+        <p>Animate opacity, size, and position together.</p>
+
+        <div class="stage">
+            <div id="combined-box" class="animation-box"></div>
+        </div>
+
+        <button id="combined-start">Start Combined</button>
+        <button id="combined-reset" class="secondary">Reset</button>
+    </section>
+</main>
+
+<footer>Assignment #6 | Muratbek Ibrai | SE-2529</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
