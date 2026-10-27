@@ -1,1 +1,93 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Lab | Effects</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <a class="logo" href="index.html">jQuery Lab</a>
+    <div class="nav-links">
+        <a href="index.html">Setup</a>
+        <a class="active" href="effects.html">Effects</a>
+        <a href="dom.html">DOM</a>
+        <a href="animations.html">Animations</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+</nav>
+
+<main class="container">
+    <h1>jQuery Effects</h1>
+    <p class="subtitle">
+        Interactive demonstrations of visibility,
+        fading, and sliding methods.
+    </p>
+
+    <section class="card">
+        <span class="task-label">Task 2</span>
+        <h2>Visibility Methods</h2>
+
+        <div class="demo">
+            <p id="visibility-text">
+                This paragraph can be hidden, shown, or toggled.
+            </p>
+        </div>
+
+        <button id="hide-btn">Hide</button>
+        <button id="show-btn">Show</button>
+        <button id="toggle-btn">Toggle</button>
+    </section>
+
+    <section class="card">
+        <span class="task-label">Task 3</span>
+        <h2>Fade Methods</h2>
+
+        <div class="demo">
+            <img
+                    id="fade-image"
+                    class="demo-image"
+                    src="https://picsum.photos/id/1018/800/500"
+                    alt="Mountain landscape"
+            >
+        </div>
+
+        <button id="fade-out-btn">Fade Out</button>
+        <button id="fade-in-btn">Fade In</button>
+        <button id="fade-toggle-btn">Fade Toggle</button>
+    </section>
+
+    <section class="card">
+        <span class="task-label">Task 4</span>
+        <h2>Slide Methods</h2>
+
+        <div class="demo">
+            <div class="slide-header" id="panel-header">
+                Click here to toggle the panel
+            </div>
+
+            <div class="slide-content" id="slide-panel">
+                <h3>Collapsible Information Panel</h3>
+                <p>
+                    jQuery slide methods animate the height
+                    of an element to reveal or hide content.
+                </p>
+            </div>
+        </div>
+
+        <button id="slide-up-btn">Slide Up</button>
+        <button id="slide-down-btn">Slide Down</button>
+        <button id="slide-toggle-btn">Slide Toggle</button>
+    </section>
+</main>
+
+<footer>Assignment #6 | Muratbek Ibrai | SE-2529</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/effects.js"></script>
+</body>
+</html>
+
