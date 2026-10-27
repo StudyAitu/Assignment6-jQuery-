@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Lab | Image Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <a class="logo" href="index.html">jQuery Lab</a>
+    <div class="nav-links">
+        <a href="index.html">Setup</a>
+        <a href="effects.html">Effects</a>
+        <a href="dom.html">DOM</a>
+        <a href="animations.html">Animations</a>
+        <a class="active" href="gallery.html">Gallery</a>
+    </div>
+</nav>
+
+<main class="container">
+    <header class="hero">
+        <span class="task-label">Task 11 — Mini Project</span>
+        <h1>Interactive Image Gallery</h1>
+        <p class="subtitle">
+            Explore a collection of photographs using
+            jQuery effects, filtering, and animations.
+        </p>
+    </header>
+
+    <section class="card">
+        <h2>Explore the Gallery</h2>
+
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn secondary" data-filter="nature">
+            Nature
+        </button>
+        <button class="filter-btn secondary" data-filter="city">
+            Cities
+        </button>
+
+        <div class="gallery-grid" id="gallery-grid">
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/1018/800/500"
+                     alt="Mountain landscape">
+                <p>Mountain View</p>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/1015/800/500"
+                     alt="River landscape">
+                <p>River Valley</p>
+            </div>
+
+            <div class="gallery-item" data-category="city">
+                <img src="https://picsum.photos/id/1011/800/500"
+                     alt="Urban architecture">
+                <p>Urban Perspective</p>
+            </div>
+
+            <div class="gallery-item" data-category="city">
+                <img src="https://picsum.photos/id/1031/800/500"
+                     alt="Architecture">
+                <p>City Details</p>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/1020/800/500"
+                     alt="Nature scenery">
+                <p>Natural Beauty</p>
+            </div>
+
+            <div class="gallery-item" data-category="city">
+                <img src="https://picsum.photos/id/1043/800/500"
+                     alt="Travel scenery">
+                <p>Travel Moments</p>
+            </div>
+        </div>
+
+        <div class="gallery-preview" id="gallery-preview">
+            <h2 id="preview-title">Image Preview</h2>
+
+            <img id="preview-image" src="" alt="Selected gallery image">
+
+            <div>
+                <button id="previous-image" class="secondary">Previous</button>
+                <button id="next-image">Next</button>
+                <button id="close-preview" class="danger">Close</button>
+            </div>
+        </div>
+
+        <p id="gallery-status" class="status" aria-live="polite">
+            Showing all photographs.
+        </p>
+    </section>
+</main>
+
+<footer>Assignment #6 | Muratbek Ibrai | SE-2529</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
