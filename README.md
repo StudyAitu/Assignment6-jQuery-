@@ -4,8 +4,6 @@
 **Group:** SE-2529  
 **Course:** Front-End Development  
 **Topic:** jQuery — Selectors, Effects, Animations
-GitHub pages:https://studyaitu.github.io/Assignment6-jQuery-/
-github repository:https://github.com/StudyAitu/Assignment6-jQuery-
 
 ## Project Overview
 
@@ -116,10 +114,10 @@ To deploy:
 ## GitHub Links
 
 Repository:
-[INSERT REPOSITORY URL]
+https://github.com/StudyAitu/Assignment6-jQuery-
 
 Live Website:
-[INSERT GITHUB PAGES URL]
+https://studyaitu.github.io/Assignment6-jQuery-/
 
 ## Conclusion
 
